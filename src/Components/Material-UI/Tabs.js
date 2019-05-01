@@ -8,7 +8,6 @@ import Dashboard from '@material-ui/icons/Dashboard';
 import People from '@material-ui/icons/People';
 import Category from '@material-ui/icons/Category';
 import Typography from '@material-ui/core/Typography';
-import Table from './Table';
 import Forces from '../Forces';
 import Crimes from '../Crimes'
 
@@ -57,7 +56,7 @@ function ScrollableTabsButtonForce() {
         </Tabs>
       </AppBar>
       {value === 0 && <TabContainer>
-          <Table />
+          Dashboard Data Here...
       </TabContainer>}
       {value === 1 && <TabContainer>
         <Forces />
