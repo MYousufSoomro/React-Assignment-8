@@ -10,6 +10,7 @@ import Category from '@material-ui/icons/Category';
 import Typography from '@material-ui/core/Typography';
 import Forces from '../Forces';
 import Crimes from '../Crimes'
+import DashboardData from '../Dashboard'
 
 function TabContainer(props) {
   return (
@@ -56,7 +57,7 @@ function ScrollableTabsButtonForce() {
         </Tabs>
       </AppBar>
       {value === 0 && <TabContainer>
-          Dashboard Data Here...
+          <DashboardData />
       </TabContainer>}
       {value === 1 && <TabContainer>
         <Forces />
